@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 html,
 body {
   padding: 0;
@@ -13,6 +21,8 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
